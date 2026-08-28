@@ -1,0 +1,26 @@
+# Environment / secrets
+.env
+*.env.local
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Test / coverage artefacts
+.pytest_cache/
+.coverage
+coverage.xml
+htmlcov/
+
+# Local databases
+*.db
+*.sqlite3
+
+# OS noise
+.DS_Store
+
+# Streamlit
+.streamlit/secrets.toml
